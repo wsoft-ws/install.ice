@@ -5,6 +5,8 @@
      <publisher>WSOFT</publisher>
      <description>The AliceScript package Installer.</description>
      <script>
+          include("Installer.ice");
+          include("PackageRoader.ice");
           include("main.ice");
      </script>
      <supportinterpreter>any</supportinterpreter>
